@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85b43e3a-fac7-410d-b597-0065bdfb9b0a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/error/error.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/range/range.go" afterPath="$PROJECT_DIR$/range/range.go" />
+      <change beforePath="$PROJECT_DIR$/web/web.go" afterPath="$PROJECT_DIR$/web/web.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,18 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="array.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/array.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="e#14#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="functions.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/func/functions.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,13 +48,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="error.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/error/error.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
               <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
                 <element signature="e#14#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/web.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1161">
+              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+              <folding>
+                <element signature="e#14#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="goroutine.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routine/goroutine.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding>
+                <element signature="e#14#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,6 +139,8 @@
         <option value="$PROJECT_DIR$/range/range.go" />
         <option value="$PROJECT_DIR$/error/main.go" />
         <option value="$PROJECT_DIR$/error/error.go" />
+        <option value="$PROJECT_DIR$/routine/goroutine.go" />
+        <option value="$PROJECT_DIR$/web/web.go" />
       </list>
     </option>
   </component>
@@ -169,11 +182,6 @@
               <item name="Golang-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Golang-Learning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Golang-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Golang-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="error" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -201,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Application.error.go">
+  <component name="RunManager" selected="Go Application.web/">
     <configuration name="error.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="Golang-Learning" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -209,14 +217,6 @@
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/error/error.go" />
       <directory value="$PROJECT_DIR$/" />
-    </configuration>
-    <configuration name="funcVaule/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="Golang-Learning" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="DIRECTORY" />
-      <filePath value="$PROJECT_DIR$/" />
-      <directory value="$PROJECT_DIR$/funcVaule" />
     </configuration>
     <configuration name="interface/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="Golang-Learning" />
@@ -226,15 +226,6 @@
       <filePath value="$PROJECT_DIR$/" />
       <directory value="$PROJECT_DIR$/interface" />
     </configuration>
-    <configuration name="methods/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="Golang-Learning" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="DIRECTORY" />
-      <filePath value="$PROJECT_DIR$/" />
-      <directory value="$PROJECT_DIR$/methods" />
-      <output_directory value="C:\projects.zhongweili.com" />
-    </configuration>
     <configuration name="range.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="Golang-Learning" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -243,20 +234,36 @@
       <filePath value="$PROJECT_DIR$/range/range.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
+    <configuration name="routine/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="Golang-Learning" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/" />
+      <directory value="$PROJECT_DIR$/routine" />
+    </configuration>
+    <configuration name="web/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="Golang-Learning" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/" />
+      <directory value="$PROJECT_DIR$/web" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Application.methods/" />
-      <item index="1" class="java.lang.String" itemvalue="Go Application.funcVaule/" />
-      <item index="2" class="java.lang.String" itemvalue="Go Application.interface/" />
-      <item index="3" class="java.lang.String" itemvalue="Go Application.range.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Application.error.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Application.interface/" />
+      <item index="1" class="java.lang.String" itemvalue="Go Application.range.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Application.error.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Application.web/" />
+      <item index="4" class="java.lang.String" itemvalue="Go Application.routine/" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Application.error.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Application.range.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Application.interface/" />
-        <item index="3" class="java.lang.String" itemvalue="Go Application.methods/" />
-        <item index="4" class="java.lang.String" itemvalue="Go Application.funcVaule/" />
+        <item index="0" class="java.lang.String" itemvalue="Go Application.web/" />
+        <item index="1" class="java.lang.String" itemvalue="Go Application.routine/" />
+        <item index="2" class="java.lang.String" itemvalue="Go Application.error.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Application.range.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Application.interface/" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +279,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3258427" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -383,20 +390,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Go/src/fmt/print.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="229" column="5" lean-forward="false" selection-start-line="229" selection-start-column="5" selection-end-line="229" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/error/error.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
             <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routine/goroutine.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#14#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/fmt/print.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="212" column="5" lean-forward="false" selection-start-line="212" selection-start-column="5" selection-end-line="212" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1161">
+          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding>
+            <element signature="e#14#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
